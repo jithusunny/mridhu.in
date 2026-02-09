@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Mridhu by Elsa</title>
+  <meta name="description" content="Mridhu by Elsa — boutique. Launching soon." />
+
+  <!-- Social preview -->
+  <meta property="og:title" content="Mridhu by Elsa" />
+  <meta property="og:description" content="Elegant pieces. Launching soon." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mridhu.in" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="wrap">
+    <section class="card">
+      <header class="brand">
+        <div class="mark" aria-hidden="true">m</div>
+        <div class="brandText">
+          <h1>Mridhu</h1>
+          <p class="sub">by Elsa</p>
+        </div>
+      </header>
+
+      <p class="tagline">
+        Timeless, elegant pieces — crafted with care.
+        <span class="muted">Launching soon.</span>
+      </p>
+
+      <div class="cta">
+        <a class="btn" href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" rel="noreferrer">
+          Shop on Instagram
+        </a>
+        <a class="btn ghost" href="mailto:hello@mridhu.in">
+          Contact
+        </a>
+      </div>
+
+      <div class="divider" role="presentation"></div>
+
+      <div class="details">
+        <div class="pill">India</div>
+        <div class="pill">Custom • Ready-to-wear • Occasion</div>
+      </div>
+
+      <p class="fine">
+        © <span id="y"></span> Mridhu by Elsa
+      </p>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
